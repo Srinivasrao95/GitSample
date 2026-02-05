@@ -1,0 +1,32 @@
+package restAssured_NestedArray_fakestoreAPI;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Builder
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class FakestoreAPI_POJO_lamobok {
+    private Integer id;
+    private String title;
+    private Double price;
+    private String description;
+    private String category;
+    private String image;
+    private Rating rating;
+
+
+    @Builder
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class Rating{
+        private Double rate;
+        private Integer count;
+    }
+
+}

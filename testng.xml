@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Website verification">
+        <classes>
+            <class name="test.TestNg_Part1">
+            </class>
+            <class name="test.testNg_Part2">
+            </class>
+        </classes>
+    </test>
+</suite>
