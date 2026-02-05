@@ -16,6 +16,7 @@ public class JavaStreams {
         names.add("Dex");
         names.add("bottleneck");
         names.add("Alooveer");
+        names.add("Hello World");
 
        long x= names.stream().filter(s->s.startsWith("A")).count();
         System.out.println(x);
