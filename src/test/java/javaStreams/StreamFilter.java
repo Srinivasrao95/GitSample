@@ -12,6 +12,9 @@ public class StreamFilter {
 		list.add("Siva");
 		list.add("Hello");
 		list.add("Sachet");
+
+		list.add("Stramfilter1");
+		list.add("Stramfilter12");
 		
 		
 		//long a=list.stream().filter(s->s.startsWith("S")).count();
