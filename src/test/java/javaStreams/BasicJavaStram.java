@@ -14,6 +14,9 @@ public class BasicJavaStram {
 	    names.add("Sachet");
 		names.add("Sample1");
 		names.add("Sample2");
+names.add("Sample3");
+		names.add("Sample4");
+
 	    int count=0;
 	    
 	    for(int i=0; i<names.size();i++) 
