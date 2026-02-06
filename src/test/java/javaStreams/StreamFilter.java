@@ -15,7 +15,8 @@ public class StreamFilter {
 
 		list.add("Stramfilter1");
 		list.add("Stramfilter12");
-		
+				list.add("Stramfilter3");
+		list.add("Stramfilter4");
 		
 		//long a=list.stream().filter(s->s.startsWith("S")).count();
 		//System.out.println(a);
